@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Mulish&display=swap");
+
+:root {
+  --bg-color: rgb(240, 248, 255);
+  --comp-color-one: rgb(112, 128, 144);
+  --comp-color-two: rgb(45, 56, 66);
+  --comp-color-three: rgb(143, 131, 111);
+}
+
+body {
+  background: linear-gradient(90deg, white, aliceblue);
+  font-family: "Instrument Serif", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  width: 50%;
+  height: 50%;
+  border: 5px solid slategrey;
+  border-radius: 10px;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: var(--comp-color-one);
+}
+
+.title {
+  letter-spacing: 1rem;
+}
+
+button {
+  font-family: "Instrument Serif", serif;
+  cursor: pointer;
+  background-color: var(--comp-color-two);
+  color: white;
+  padding: 5px 20px;
+  margin: 0 20px;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.dropdown {
+  background-color: white;
+  width: 20px;
+}
+
+h4 {
+  height: 5px;
+  padding: 0;
+}
+
+input {
+  font-family: "Instrument Serif", serif;
+  font-size: 5rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.diagram img {
+  height: 400px;
+  width: 400px;
+  padding: 50px 50px;
+}
+
+.img-info {
+  margin-right: auto;
+  width: 25%;
+  height: 500px;
+}
+
+.text-info {
+  margin-left: auto;
+  width: 25%;
+  height: 500px;
+}
